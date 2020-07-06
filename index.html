@@ -4,15 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheet.css" />
-    <title>mon CV web</title>
+    <title>online CV Guillaume Pelette</title>
 </head>
     
 <body>
     <div class = "page_container">
+
        <!-- big div 1 -->
         <div class = "aside_container">
-            <div class = "div_profilepic">
-                <img src = "resumepic.jpg" alt = "photo de profil"></div>
+            <div id = "div_profilepic">
+                <img src = "resumepic.jpg" alt = "photo de profil" id="profilepic">
+            </div>
             <div class = "section_title">
                 <h4>CONTACT</h4>
             </div>
@@ -22,11 +24,16 @@
                 <p>Téléphone
                 <br />07.66.51.28.99</p>
                 <p>Email
-                <br /><a href="mailto:guillaume.pelette@gmail.com">guillaume.Pelette@gmail.com</a></p>
+                <br /><a href="mailto:guillaume.pelette@gmail.com">guillaume.pelette@gmail.com</a></p>
                 <p>Site web
                 <br />www.guillaumepelette.com</p>
+                <p>Linkedin
+                <br /><a href="https://www.linkedin.com/in/guillaumepelette/">guillaumepelette</a></p>
+                <p>Twitter
+                <br /><a href="https://twitter.com/codevweb/">@codevweb</a></p>
                 <p>Skype
-                <br />@codevweb</p></div>
+                <br />guillaume.pelette</p>
+            </div>
             <div class = "section_title">
                 <h4>A PROPOS DE MOI</h4>
             </div>
@@ -35,7 +42,7 @@
             </div>
             <div class = "section_title">
                 <h4>LOISIRS</h4>
-                </div>
+            </div>
             <div class = "leisure">
                 <div class = "leisure_icon">
                     <img />
@@ -52,42 +59,130 @@
         <!-- big div 2 -->
         <div class = "main_container">
             <header>
-                <h1>Guillaume Pelette</h1>
-                <h4>Développeur web freelance</h4>
+                <h1><span id="Guillaume">GUILLAUME</span> PELETTE</h1>
+                <h4><span id="dev_underline">Déve</span>loppeur web freelance</h4>
             </header>
             
             <!-- Section 1 -->
             <section>
                 <div class = "main_section">
-                    <div class = "main_section_header">
-                        <h4>FORMATION</h4>
-                    <div class = "main_section_unit">
-                        <div class = "main_section_unit_dates">
-                            <p> 2016-2017 </p>
+                    <div class = "main_section_container">
+                        <div class = "main_section_header">
+                        <h4><img src="icons/college_hat.jpg" alt="college hat icon">FORMATION</h4>
                         </div>
-                        <div class = "main_section_unit_content">
-                            <h5>OpenClassrooms</h5>
-                            <h6>Junior Web Developper</h6>
-                            <p>2016-2017</p>
+                        <div class = "main_section_unit">
+                            <div class = "main_section_unit_dates">
+                                <p><img src="icons/unit_dates_icon1.jpg" alt="icon for period of time"> 2020 </p>
+                                <p> Paris </p>
+                            </div>
+                            <div class = "main_section_unit_content">
+                                <h5>OpenClassrooms</h5>
+                                <h6>Junior Web Developper</h6>
+                                <p>Formation de 6 mois à temps plein permettant d'acquérir les connaissances et compétences essentielles afin de développer un site ou application web 
+                                à partir d"un maquette visuelle. Compétences acquises:</p>
+                                <ul>
+                                    <li>Assembler les pages en HTML5 et CSS3 à partir de maquettes graphiques;</li>
+                                    <li>Intégrer des contenus textes, images, sons, vidéo dans le code HTML5 ;</li>
+                                    <li>Assurer la compatibilité avec les différents navigateurs du marché ;</li>
+                                    <li>Mettre en place une communication entre client et serveur avec JavaScript ;</li>
+                                    <li>Organiser et gérer une base de données
+                                    <li>Respecter les normes d’accessibilité et de référencement du W3C ;</li>
+                                </ul>
+                            </div>
                         </div>
+
+                        <div class = "main_section_unit">
+                            <div class = "main_section_unit_dates">
+                                <p><img src="icons/unit_dates_icon2.jpg" alt="icon for period of time"> 2019 </p>
+                                <p> Paris </p>
+                            </div>
+                            <div class = "main_section_unit_content">
+                                <h5>Ecole 42</h5>
+                                <h6>Piscine de Juin</h6>
+                                <p>Une expérience immersive unique dans le grand bain du code : un mois passé dans les locaux de 42 pour vraiment découvrir l’école, 
+                                sa méthode unique d’apprentissage et avant tout ce qu’est vraiment la programmation.</p>
+                            </div>
+                        </div>
+
+                        <div class = "main_section_unit">
+                            <div class = "main_section_unit_dates">
+                                <p><img src="icons/unit_dates_icon2.jpg" alt="icon for period of time"> 2013-2016 </p>
+                                <p> Lille </p>
+                            </div>
+                            <div class = "main_section_unit_content">
+                                <h5>IESEG School of Management</h5>
+                                <h6>Bachelor en Management, Programme Grande Ecole</h6>
+                                <p>Formation pluridisciplinaire </p>
+                                <ul>
+                                    <li>>Cursus Anglophone : Enseignement exclusivement en anglais dès la 1ère année </li>
+                                    <li>Enseignement des fondamentaux en Economie, Méthodes Quantitatives, Anglais et Droit
+                                    <li>Première approche des disciplines du Management : Marketing, Négociation, Audit & Controle, 
+                                    Management des Ressources Humaines, Systèmes d’Information, Logistique, Finance</li>
+                                    <li>Acquisition de compétences managériales au travers de modules de développement personnel</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class = "main_section_unit">
+                            <div class = "main_section_unit_dates">
+                                <p><img src="icons/unit_dates_icon2.jpg" alt="icon for period of time"> 2010-2013 </p>
+                                <p> Lille </p>
+                            </div>
+                            <div class = "main_section_unit_content">
+                                <h6>Bachelor en Management, Programme Grande Ecole</h6>
+                                <p>Formation pluridisciplinaire </p>
+                                <ul>
+                                    <li>>Cursus Anglophone : Enseignement intégralement en anglais dès la 1ère année </li>
+                                    <li>Enseignement des fondamentaux en Economie, Méthodes Quantitatives, Anglais et Droit
+                                    <li>Première approche des disciplines du Management : Marketing, Négociation, Audit & Controle, 
+                                    Management des Ressources Humaines, Systèmes d’Information, Logistique, Finance</li>
+                                    <li>Acquisition de compétences managériales au travers de modules de développement personnel</li>
+                                    <li>Année d'échange (L3) à l'Université de Sherbrooke au Canada</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
                     </div>
-                    <div class = "main_section_unit">
-                        <div class = "main_section_unit_dates">
-                            <p> 2014-2016 </p>
+                </div>
+            </section>
+
+
+            <!-- Section 2:EXPERIENCE -->
+            <section>
+                <div class = "main_section">
+                    <div class = "main_section_container">
+                        <div class = "main_section_header">
+                        <h4><img src="icons/college_hat.jpg" alt="college hat icon">FORMATION</h4>
                         </div>
-                        <div class = "main_section_unit_content">
-                            <h5>IESEG School of Management</h5>
-                            <h6>Master of Science in Management</h6>
-                            <p>2010-2016</p>
+                        <div class = "main_section_unit">
+                            <div class = "main_section_unit_dates">
+                                <p><img src="icons/unit_dates_icon1.jpg" alt="icon for period of time"> 2016-2017 </p>
+                                <p> Paris </p>
+                            </div>
+                            <div class = "main_section_unit_content">
+                                <h5>OpenClassrooms</h5>
+                                <h6>Junior Web Developper</h6>
+                                <p>Formation de 6 mois à temps plein permettant d'acquérir les connaissances et compétences essentielles afin de développer un site ou application web à partir d"un maquette visuelle. Compétences acquises:</p>
+                                <ul>
+                                    <li>Assembler les pages en HTML5 et CSS3 à partir de maquettes graphiques;</li>
+                                    <li>Intégrer des contenus textes, images, sons, vidéo dans le code HTML5 ;</li>
+                                    <li>Assurer la compatibilité avec les différents navigateurs du marché ;</li>
+                                    <li>Mettre en place une communication entre client et serveur avec JavaScript ;</li>
+                                    <li>Organiser et gérer une base de données
+                                    <li>Respecter les normes d’accessibilité et de référencement du W3C ;</li>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Section 2 -->
-            <section>
-                
-            </section>
+
+            <!-- Section 3:RECOMMANDATIONS -->
+
+
 
             <footer>
                 <p><a href="CVpdf.zip">Télécharger la version PDF</a></p>

@@ -15,36 +15,42 @@ body {
   display: grid;
   grid-template-columns:2fr 8fr;
   grid-template-rows: 1fr;
-  border: solid black;
   height: 100%;
 }
 
 .aside_container {
+  display: grid;
+  grid-template-rows: 1.35fr 0.25fr 2fr 0.25fr 4.5fr 0.25fr;
   background-color: rgb(254, 202, 7);
   font-size:10px;
-  min-width:150px;
+  min-width:200px;
   height:100%;
   align-items:stretch;
+}
+
+.inline_block {
+  display:inline;
 }
 
 .section_title {
   background-color: rgb(64, 64, 64);
   color: rgb(254, 202, 7);
   text-align: center;
-  line-height: 30px;
-  pading: auto;
-  height: 30px;
+  padding: 5px 0;
   font-weight:1000;
+  vertical-align:middle;
+  grid-auto-rows: auto;
 }
 
 .section_title h3 {
   font-size: 22px;
+  vertical-align:middle;
+  margin:0;
 }
 
 #div_profilepic {
   text-align: center;
   margin: auto;
-  margin:30px 0;
 }
 
 img#profilepic {
@@ -70,9 +76,8 @@ div.contact_info p a, div.contact_info p a:visited, div.contact_info p a:hover, 
 }
 
 .aside_container footer {
-  position: relative;
-  bottom: 0;
-  margin-top:250px;
+  align-self: flex-end;
+  padding-bottom: 20px;
 }
 
 .leisure {
@@ -110,7 +115,6 @@ div.contact_info p a, div.contact_info p a:visited, div.contact_info p a:hover, 
 
 .main_container {
   background-color: white;
-  width:70%;
   padding: 0px 40px;
 }
 
@@ -166,10 +170,12 @@ div.main_section_unit {
   padding-top:30px;
 }
 
-div.main_section_unit_dates {
+.main_section_unit_dates {
   font-size: 0.5em;
   font-weight: 700;
-  min-width:150px;
+  width:120px;
+  padding-right:20px;
+  word-wrap: break-word;
   flex-shrink:0;
 }
 
@@ -241,7 +247,7 @@ div.main_section_container div.main_section_unit div.main_section_unit_content {
 }
 
 
-div.main_section_unit {
+div.main_section_unit_reco_div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -269,4 +275,5 @@ div.main_section_unit_reco {
 
 body {
   font-size: 130%;
+  margin:0;
 }

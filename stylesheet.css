@@ -20,7 +20,7 @@ body {
 
 .aside_container {
   display: grid;
-  grid-template-rows: 1.35fr 0.25fr 2fr 0.25fr 4.5fr 0.25fr;
+  grid-template-rows: 0.28fr 0.05fr 0.5fr 0.05fr;
   background-color: rgb(254, 202, 7);
   font-size:10px;
   min-width:200px;
@@ -28,11 +28,8 @@ body {
   align-items:stretch;
 }
 
-.inline_block {
-  display:inline;
-}
-
 .section_title {
+  margin-top:10px;
   background-color: rgb(64, 64, 64);
   color: rgb(254, 202, 7);
   text-align: center;
@@ -50,12 +47,15 @@ body {
 
 #div_profilepic {
   text-align: center;
-  margin: auto;
+  vertical-align:middle;
+  margin: 10px;
+  margin-top: 25px;
 }
 
 img#profilepic {
   height:150px;
   width:150px;
+  vertical-align:middle;
   border-radius: 50%;
 }
 

@@ -20,9 +20,9 @@ body {
 
 .aside_container {
   display: grid;
-  grid-template-rows: 0.28fr 0.05fr 0.5fr 0.05fr;
+  grid-template-rows: 0.23fr 0.03fr 0.35fr 0.03fr 1.25fr 0.03fr;
   background-color: rgb(254, 202, 7);
-  font-size:10px;
+  font-size:1em;
   min-width:200px;
   height:100%;
   align-items:stretch;
@@ -49,7 +49,7 @@ body {
   text-align: center;
   vertical-align:middle;
   margin: 10px;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 img#profilepic {
@@ -60,8 +60,9 @@ img#profilepic {
 }
 
 .contact_info {
-  font-weight: 700;
+  font-weight: 1000;
   padding:20px 30px;
+  font-style: normal;
 }
 
 div.contact_info p a, div.contact_info p a:visited, div.contact_info p a:hover, div.contact_info p a:active {
@@ -134,12 +135,12 @@ header {
 header h1 {
   margin-top:70px;
   margin-bottom:0px;
-  font-size: 1.7em;
+  font-size: 2.5em;
 }
 
 header h4 {
   margin-top:0;
-  font-size: 0.9em;
+  font-size: 2em;
 }
 
 #Guillaume {
@@ -164,7 +165,7 @@ h4 img {
 
 div.main_section_header h4 {
   margin:0;
-  font-size:25px;
+  font-size:1.8em;
   font-weight:1000;
 }
 
@@ -175,7 +176,7 @@ div.main_section_unit {
 }
 
 .main_section_unit_dates {
-  font-size: 0.5em;
+  font-size: 1em;
   font-weight: 700;
   width:120px;
   padding-right:20px;
@@ -217,14 +218,13 @@ div.main_section_unit_dates p:nth-child(2) {
 div.main_section_unit_content h6 {
   margin:0;
   margin-bottom: 5px;
-  font-size: 0.5em;
+  font-size: 1.2em;
 }
 
 div.main_section_unit_content p {
   margin-top:5px;
-  margin-bottom:2px;
-  font-size: 0.5em;
-  text-align:justify;
+  margin-bottom:5px;
+  font-size: 1em;
 }
 
 div.main_section_unit_content ul {
@@ -234,20 +234,21 @@ div.main_section_unit_content ul {
 }
 
 div.main_section_unit_content ul li {
-  font-size: 0.5em;
+  font-size: 1em;
   text-align:justify;
 }
 
 div.main_section_unit_content h5 {
   margin:0;
   margin-bottom:5px;
+  font-size: 1.4em;
 }
 
 div.main_section_container div.main_section_unit div.main_section_unit_content {
   padding-bottom: 0px;
 }
 
-#main_section_unit_nopaddingtop {
+.main_section_unit_nopaddingtop {
   padding-top: 15px;
 }
 
@@ -264,30 +265,23 @@ div.main_section_unit_reco_div {
 }
 
 div.main_section_unit_reco {
-  font-size: 10px;
+  font-size: 1em;
   font-weight: 700;
   min-width: 120px;
   flex-shrink:0;
 }
 
-#smalltext {
+.smalltext {
   font-weight:100;
 }
 
 .main_container footer p a {
-  font-size:0.5em;
+  font-size:10px;
 }
 
 body {
-  font-size: 130%;
   margin:0;
 }
-
-
-
-
-
-
 
 
 

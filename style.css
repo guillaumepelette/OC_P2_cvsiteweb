@@ -6,6 +6,9 @@
 
 * {
   font-family:Roboto;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -76,28 +79,24 @@ img#profilepic {
   font-size: 22px;
   margin: 0px;
   line-height:100%;
-  margin: 5px 0;
 }
 
 #section_title2 h3 {
   font-size: 22px;
   margin: 0px;
   line-height:100%;
-  margin: 5px 0;
 }
 
 #section_title3 h3 {
   font-size: 22px;
   margin: 0px;
   line-height:100%;
-  margin: 5px 0;
 }
-
 
 #contact_info_div {
   display: flex;
   flex-flow:column nowrap;
-  padding: 10px 10px;
+  padding: 10px 5px;
 }
 
 .contact_info {
@@ -107,7 +106,7 @@ img#profilepic {
 }
 
 .contact_info p {
-  margin-bottom:0px;
+  margin:15px;
 }
 
 div.contact_info:nth-child(2) {
@@ -225,13 +224,12 @@ div.main_section_unit {
 }
 
 .main_section_unit_dates {
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 700;
-  width:120px;
+  width:180px;
   padding-right:20px;
   word-wrap: break-word;
   flex-shrink:0;
-  max-width:
 }
 
 div.main_section_unit_content {
@@ -301,11 +299,11 @@ div.main_section_container div.main_section_unit div.main_section_unit_content {
   padding-top: 15px;
 }
 
-
 div.main_section_unit_reco_div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 30px;
 }
 
 #reco_width_shrink {
@@ -321,14 +319,12 @@ div.main_section_unit_reco {
   margin-right: 50px;
 }
 
+div.main_section_unit_reco p {
+  margin-bottom:10px;
+}
+
 .smalltext {
   font-weight:100;
 }
 
-.main_container footer p a {
-  font-size:10px;
-}
-
-body {
-  margin:0;
 }

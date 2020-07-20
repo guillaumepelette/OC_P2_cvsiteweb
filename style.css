@@ -29,23 +29,6 @@ body {
   align-items:stretch;
 }
 
-.section_title {
-  margin-top:10px;
-  background-color: rgb(64, 64, 64);
-  color: rgb(254, 202, 7);
-  text-align: center;
-  padding: 5px 0;
-  font-weight:1000;
-  vertical-align:middle;
-  grid-auto-rows: auto;
-}
-
-.section_title h3 {
-  font-size: 22px;
-  vertical-align:middle;
-  margin:0;
-}
-
 #div_profilepic {
   text-align: center;
   vertical-align:middle;
@@ -60,10 +43,75 @@ img#profilepic {
   border-radius: 50%;
 }
 
+#section_title1 {
+  background-color: rgb(64, 64, 64);
+  color: rgb(254, 202, 7);
+  text-align: center;
+  padding: 5px 0;
+  font-weight:1000;
+  max-height:32px;
+}
+
+#section_title2 {
+  margin-top:10px;
+  background-color: rgb(64, 64, 64);
+  color: rgb(254, 202, 7);
+  text-align: center;
+  padding: 5px 0;
+  font-weight:1000;
+  max-height:32px;
+}
+
+#section_title3 {
+  margin-top:10px;
+  background-color: rgb(64, 64, 64);
+  color: rgb(254, 202, 7);
+  text-align: center;
+  padding: 5px 0;
+  font-weight:1000;
+  max-height:32px;
+}
+
+#section_title1 h3 {
+  font-size: 22px;
+  margin: 0px;
+  line-height:100%;
+  margin: 5px 0;
+}
+
+#section_title2 h3 {
+  font-size: 22px;
+  margin: 0px;
+  line-height:100%;
+  margin: 5px 0;
+}
+
+#section_title3 h3 {
+  font-size: 22px;
+  margin: 0px;
+  line-height:100%;
+  margin: 5px 0;
+}
+
+
+#contact_info_div {
+  display: flex;
+  flex-flow:column nowrap;
+  padding: 10px 10px;
+}
+
 .contact_info {
   font-weight: 1000;
-  padding:20px 30px;
+  padding: 0px 10px;
   font-style: normal;
+}
+
+.contact_info p {
+  margin-bottom:0px;
+}
+
+div.contact_info:nth-child(2) {
+  
 }
 
 div.contact_info p a, div.contact_info p a:visited, div.contact_info p a:hover, div.contact_info p a:active {

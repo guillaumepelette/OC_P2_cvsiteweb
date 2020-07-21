@@ -320,10 +320,9 @@ div.main_section_container div.main_section_unit div.main_section_unit_content {
   padding-bottom: 0px;
 }
 
-.main_section_unit_nopaddingtop {
+.nopaddingtop {
   padding-top: 15px;
 }
-
 
 div.main_section_unit_reco_div {
   display: flex;

@@ -49,10 +49,10 @@ img#profilepic {
   width:100px;
   vertical-align:middle;
   border-radius: 50%;
+  border:2px solid rgba(155, 155, 155, .2);
 }
 
 #section_title1 {
-  margin-top:10px;
   background-color: rgb(64, 64, 64);
   color: rgb(254, 202, 7);
   text-align: center;
@@ -241,31 +241,53 @@ div.main_section_header h4 {
 
 div.main_section_unit {
   display:flex;
-  flex-direction:row;
-  padding-top:30px;
+  flex-direction:column;
+  padding-top:20px;
+  width:100%;
 }
 
 .main_section_unit_dates {
   font-size: 0.8em;
   font-weight: 700;
-  max-width:120px;
-  padding-right:20px;
+  margin-bottom:10px;
+  padding-bottom:5px;
+  border-bottom: solid 0.5px rgba(0, 0, 0, 0.3);
   word-wrap: break-word;
+  width:200px;
   flex-shrink:1;
+  box-sizing: border-box;
 }
 
 div.main_section_unit_content {
   padding:0;
+  width:100%;
+  word-wrap: break-word;
 }
 
-div.main_section_unit_dates p{
+div.main_section_unit_dates p {
   margin:0;
+  display: inline;
 }
 
 div.main_section_unit_dates p img {
-  height:5px;
-  width:5px;
+  height:7px;
+  width:7px;
   margin-right:10px;
+  box-sizing:content-box;
+}
+
+img.icon1_border {
+  box-sizing:border-box;
+  padding: 1px;
+  border:2px solid rgba(254, 202, 7);
+  border-radius:50%;
+}
+
+img.icon1_border_white {
+  box-sizing:border-box;
+  padding: 1px;
+  border:2px solid rgba(255, 255, 255);
+  border-radius:50%;
 }
 
 div.main_section_unit_dates p:nth-child(1) img {

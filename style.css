@@ -28,22 +28,35 @@ body {
   background-color: rgb(254, 202, 7);
   font-size:1em;
   min-width:200px;
+  max-width:400px;
   height:100%;
   align-items:stretch;
+  overflow:auto;
 }
 
 #div_profilepic {
-  text-align: center;
+  display:table;
+  margin: 0 auto;
+  height:100%;
+  max-height:200px;
+  width:100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#profilepic_span {
+  display:table-cell;
   vertical-align:middle;
-  margin: 10px;
-  margin-top: 40px;
+  text-align: center;
+  width:100%;
+  height:230px;
 }
 
 img#profilepic {
-  height:150px;
-  width:150px;
-  vertical-align:middle;
+  height:60%;
+  width: 140px;
   border-radius: 50%;
+  border:3px solid rgba(155, 155, 155, .2);
 }
 
 #section_title1 {
@@ -126,7 +139,7 @@ div.contact_info p a, div.contact_info p a:visited, div.contact_info p a:hover, 
 
 .aside_container footer {
   align-self: flex-end;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .leisure {
@@ -241,9 +254,24 @@ div.main_section_unit_dates p{
 }
 
 div.main_section_unit_dates p img {
-  height:5px;
-  width:5px;
+  height:7px;
+  width:7px;
   margin-right:10px;
+  box-sizing:content-box;
+}
+
+img.icon1_border {
+  box-sizing:border-box;
+  padding: 1px;
+  border:2px solid rgba(254, 202, 7);
+  border-radius:50%;
+}
+
+img.icon1_border_white {
+  box-sizing:border-box;
+  padding: 1px;
+  border:2px solid rgba(255, 255, 255);
+  border-radius:50%;
 }
 
 div.main_section_unit_dates p:nth-child(1) img {
